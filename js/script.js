@@ -1,3 +1,16 @@
+var doCoolStuff = function () {
+	var currentClassName = document.getElementById('cool').className;
+
+	if (currentClassName == 'cool') {
+	 //changing class name
+	document.getElementById('cool').className = 'cool red';
+	} else {
+		document.getElementById('cool').className = 'cool';
+	 //since the id of the cool class is the word cool, it is telling the console to change the information of that document by applying the transition function on click me
+	}
+}
+
+
 		var car = {
 			make: 'VW',
 			type: 'Polo',
